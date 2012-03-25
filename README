@@ -1,0 +1,15 @@
+All the works for GSoC SimpleCV are here.
+
+s.jpg = https://7302875096840682883-a-1802744773732722657-s-sites.googlegroups.com/site/ilupythonp/my-updates/demoapplicationforsimplecvgsoc/s.jpg?attachauth=ANoY7cpd3GsaswLAJvdlskFCMxP3cXpRzzychabGGZvfqTR7EAOUYX1f7O-xGHl7oKMNuyveQMrwBDU96ju4UbtN2HwMmS9HWtm7ydp3bkickThWwUeuwlJKfHf72mPtiH0GZ9Nhrb3ftvTrA2uBlksejfJCbP7MS7eIgVww-gcY8xyTsmcK_TENvgxq7EGJOf3PsN8HMIiUwob56bISDFFQAky4QFiNhL7NVK9w5IjlltsmTLZehYGDT0LAqDU4ROQ6ZdDhKjHF&attredirects=0
+t.jpg = https://7302875096840682883-a-1802744773732722657-s-sites.googlegroups.com/site/ilupythonp/my-updates/demoapplicationforsimplecvgsoc/t.jpg?attachauth=ANoY7crboS6F2S3onX6mxbFgFjjyVRiyrDjaGpJ0jsQgHSkNsPaSiC0pfYwTfMPg1FXHf27ksUBfHjfsPg67ubj2OG65C_SkkE5l16GGGt3LJp_a15e2hXumBIVWWzqyw6hcwmCpVXCgdMzXLfkkZTMCxMIB8W4wL0c2u0UL6EDVoP4XXXwjGj-7zqEKjGMZ1vwvBhZBVyhquMYGPsdUcykbYkA87hZK5swSU891sRYBnp8nXbwUJG3F7yxeT6m1PYUrQXjThW7B&attredirects=0
+hoho.jpg = https://7302875096840682883-a-1802744773732722657-s-sites.googlegroups.com/site/ilupythonp/my-updates/demoapplicationforsimplecvgsoc-1/hoho.jpg?attachauth=ANoY7comPZ3YjIrvTE_I43aJGDOobgRV6CYphTBUrP3d8URXUXQfdIzulEZEJDwrloSyY99yrBoD9m9kyEWQqr-pnniUsGSQ1X_-yYeqxq7g6FfgpiOtsVHyfCjlyg7UIv-Nrc19AoXZQRoSFbjSz7Sj2nbIODmoluXqacoal5MRNUzu7BHzPvRKd6dKeYtJCBCCr9SPkoPvl09uPREXHwv9IJfAVgFNd0eMmipCi3Th7IrOWYJ4xcgSnisQAma0v0BYv2kDaryO&attredirects=0
+
+visit my blog here for more info : https://sites.google.com/site/ilupythonp/
+
+In demo1.py I used the SimpleCV library extensively.
+
+In demo2.py I edit the function in SimpleCV, findKeypointsMatch and used it. It yielded good results. Also after the warping
+, I manually adjusted the picture on top. Though the warping is working now, I need to find some way to place the top image 
+automatically.
+
+Thank You.
