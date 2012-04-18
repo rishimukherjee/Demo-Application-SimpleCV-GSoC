@@ -5,6 +5,6 @@ visit my blog here for more info : https://sites.google.com/site/ilupythonp/
 In demo1.py I used the SimpleCV library extensively.
 
 In demo2.py now the images fit without having to do manually anything. I just changed something in the findKeypointMatch function.
-The color is still a problem in the SimpleCV library though which is why the images look different. Need to look at it.
+The color is now no problem.
 
 Thank You.
