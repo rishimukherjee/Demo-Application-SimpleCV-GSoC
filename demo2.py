@@ -1,5 +1,7 @@
 # copyright: Rishi Mukherjee
 from SimpleCV import *
+import cv2
+import cv
 
 img1 = Image("s.jpg")
 img2 = Image("t.jpg")
