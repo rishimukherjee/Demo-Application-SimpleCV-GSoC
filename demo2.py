@@ -2,16 +2,13 @@
 from SimpleCV import *
 import cv2
 import cv
+import numpy
 
 img1 = Image("s.jpg")
 img2 = Image("t.jpg")
 dst = Image((2000, 1600))
-ofimg = img1.findKeypointMatch(img2) #find the keypoints
-homo = ofimg[1] #the homography matrix
+fs = img1.findKeypointMatch(img2)
+homo = fs[0].getHomography()
 eh = dst.getMatrix()
-#transform the image
-x = Image(cv2.warpPerspective(np.array((img2.getMatrix())), homo, (eh.rows, eh.cols+300), np.array(eh), cv.INTER_CUBIC), colorSpace=ColorSpace.RGB).toBGR()
-#blit the img1 now on coordinate (0, 0)
+x = Image(cv2.warpPerspective(np.array((img2.getMatrix())), homo, (eh.rows, eh.cols+300), np.array(eh), cv2.INTER_CUBIC), colorSpace=ColorSpace.RGB).toBGR()
 x = x.blit(img1, alpha=1.0)
-x.save("rishi1.jpg")
-##visit http://imgur.com/Xf7WS to view the results.
